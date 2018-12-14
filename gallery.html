@@ -1,0 +1,145 @@
+<html>
+<head>
+<style>
+div.desc {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+div.desc:hover {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+body {
+background-image: url("images/Back.jpg");
+background-size: 200px 200px;
+background-repeat: repeat;
+}
+    
+div.gallery img {
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 3px;
+    float: left;
+    width: 24.99999%;
+}
+    
+    .responsive2 {
+    width: 10%;
+}
+    
+    menuline {display: inline-block;
+    }
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+    
+    <div class="responsive2">
+    <center>
+     <img src="images/logo.png" alt="Cinque Terre">
+</center>
+    </div>
+        <div class="menuline">
+            
+            <a href="index.html"> <img src="images/home.png">
+            </a>
+    
+            <a href="menu.html"> <img src="images/menubtn.png">
+            </a>
+            
+            <a href="gallery.html"> <img src="images/gallerybtn.png">
+            </a>
+
+            <a href="about.html"> <img src="images/about.png">
+            </a>
+            
+            <img src="images/menu.png">
+
+    </div>
+    
+<div class="responsive">
+  <div class="gallery">
+
+      <img src="images/gallery1.jpg" alt="Burger" width="600" height="400">
+      </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/gallery2.jpg" alt="Onion Rings" width="600" height="400">
+      </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/gallery3.jpg" alt="Hot Dog" width="600" height="400">
+      </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/gallery4.jpg" alt="Shake" width="600" height="400">
+      </div>
+</div>
+    
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/gallery5.jpg" alt="Fries" width="600" height="400">
+      </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/gallery6.jpg" alt="Salad" width="600" height="400">
+      </div>
+</div>
+    
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/gallery7.jpg" alt="Mac and Cheese" width="600" height="400">
+      </div>
+</div>
+    
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/gallery8.jpg" alt="Diner" width="600" height="400">
+      </div>
+</div>
+    
+    
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+    </div>
+
+</body>
+</html>
